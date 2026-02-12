@@ -19,13 +19,47 @@
 //     console.log(val);
 // });
 
-const arri = [10, 20, 30, 40,50,60,70,80,90,100];
-let i =0;
-do{
-    {
-        console.log(arri[i]);
-    i++;
-    }
-}
-while(i < arri.length);
+// const arri = [10, 20, 30, 40,50,60,70,80,90,100];
+// let i =0;
+// do{
+//     {
+//         console.log(arri[i]);
+//     i++;
+//     }
+// }
+// while(i < arri.length);
+
+
+    // let student = [{
+    //     name : "Shubham",
+    //     age : 19,
+    //     year : "second",
+    //     batch : 2024
+    // }];
+
+    // let finding = student.find(function(data){
+    //     return data.name === "Shubham";
+    // })
+
+    // console.log(finding.name);
+
+arr = [10,5,100,25];
+
+let sr = arr.sort(function(a,b){
+    return a-b;
+})
+
+console.log(sr);
+
+
+
+
+
+
+
+
+
+
+
+
 
